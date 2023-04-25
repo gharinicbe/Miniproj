@@ -6,18 +6,14 @@ Google Sheets
 Google App Script
 Python
 Vercel
+
 Prerequisites
 To use this project, you will need:
 
 Access to Google Forms and Google Sheets
 A Google Cloud Platform project and a service account JSON file to access the Google Sheet via the Google Sheets API
 A deployed Vercel project with the necessary environment variables set
-Installation
-To install the necessary packages, run:
 
-bash
-Copy code
-pip install -r requirements.txt
 Usage
 To use this project, follow the steps below:
 
@@ -27,5 +23,6 @@ Create a Google Cloud Platform project, and download a JSON file for a service a
 Deploy the Python code on Vercel. Use the vercel.json file provided in this repository to configure the deployment.
 Write a Google App Script to call the API that runs the Python code. Use the app.py file provided in this repository as the code that runs on Vercel.
 Run the Google App Script to update the Google Sheet with the calculated parameters.
+
 Credits
 This project was created by Harini Balaji.
