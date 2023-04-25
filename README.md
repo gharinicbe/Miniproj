@@ -21,4 +21,4 @@ Installation
 There is no need to install any software for this project. However, you will need to have access to Google Forms, Google Sheets, Google App Script, and Vercel.
 
 Credits
-This project was created by Harini Balaji on request by Dr. Aarthy Moorthy.
+This project was created by Harini Balaji.
