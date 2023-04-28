@@ -22,7 +22,7 @@ Connect the Google Form to a Google Sheet. You can use the Clientsdata.xlsx file
 Create a Google Cloud Platform project, and download a JSON file for a service account that has access to the Google Sheets API. Save this file as myserviceacc.json in the project directory.
 Deploy the Python code on Vercel. Use the vercel.json file provided in this repository to configure the deployment.
 Write a Google App Script to call the API that runs the Python code. Use the app.py file provided in this repository as the code that runs on Vercel.
-Run the Google App Script to update the Google Sheet with the calculated parameters.
+A trigger on Google form submit is set in the Google App Script to update the Google Sheet with the calculated parameters automatically.
 
 Credits
 This project was created by Harini Balaji.
